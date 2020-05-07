@@ -196,6 +196,7 @@ abstract class Entitled
                     $val = $d['extension'];
                 }
 
+                //FIXME: ensure params order is the same as query params
                 $stmt->execute(
                     array_values(
                         array(

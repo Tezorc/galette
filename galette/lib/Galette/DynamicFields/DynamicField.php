@@ -791,7 +791,7 @@ abstract class DynamicField
                             array_values(
                                 array(
                                     'id'    => $i,
-                                    'vale'  => $this->values[$i]
+                                    'val'   => $this->values[$i]
                                 )
                             )
                         );
