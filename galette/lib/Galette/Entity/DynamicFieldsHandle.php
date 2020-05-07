@@ -294,7 +294,15 @@ class DynamicFieldsHandle
                             $this->insert_stmt = $this->zdb->sql->prepareStatementForSqlObject($insert);
                         }
                         unset($value['is_new']);
-                        $this->insert_stmt->execute($value);
+                        $this->insert_stmt->execute(
+                            array_values([
+                                'item_id'       => $value['item_id'],
+                                'field_id'      => $value['field_id'],
+                                'field_form'    => $value['field_form'],
+                                'val_index'     => $value['val_index'],
+                                'field_val'     => $value['field_val']
+                            ])
+                        );
                         $this->has_changed = true;
                     } else {
                         if ($this->update_stmt === null) {
@@ -311,16 +319,16 @@ class DynamicFieldsHandle
                             $this->update_stmt = $this->zdb->sql->prepareStatementForSqlObject($update);
                         }
                         $params = [
-                            'field_val' => $value['field_val'],
-                            'val_index' => $value['val_index'],
-                            'where1'    => $value['item_id'],
-                            'where2'    => $value['field_id'],
-                            'where3'    => $value['field_form'],
-                            'where4'    => isset($value['old_val_index']) ?
+                            'field_val'     => $value['field_val'],
+                            'val_index'     => $value['val_index'],
+                            'item_id'       => $value['item_id'],
+                            'field_id'      => $value['field_id'],
+                            'field_form'    => $value['field_form'],
+                            'val_index'     => isset($value['old_val_index']) ?
                                 $value['old_val_index'] :
                                 $value['val_index']
                         ];
-                        $this->update_stmt->execute($params);
+                        $this->update_stmt->execute(array_values($params));
                         $this->has_changed = true;
                     }
                 }
@@ -398,7 +406,7 @@ class DynamicFieldsHandle
                     ]);
                     $this->delete_stmt = $this->zdb->sql->prepareStatementForSqlObject($delete);
                 }
-                $this->delete_stmt->execute($entry);
+                $this->delete_stmt->execute(array_values($entry));
                 //update val index
                 $field_id = $entry['where3'];
                 if (isset($this->current_values[$field_id])

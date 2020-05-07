@@ -756,9 +756,11 @@ class Group
             if (is_array($members)) {
                 foreach ($members as $m) {
                     $result = $stmt->execute(
-                        array(
-                            self::PK        => $this->id,
-                            Adherent::PK    => $m->id
+                        array_values(
+                            array(
+                                self::PK        => $this->id,
+                                Adherent::PK    => $m->id
+                            )
                         )
                     );
 
@@ -846,9 +848,11 @@ class Group
             if (is_array($members)) {
                 foreach ($members as $m) {
                     $result = $stmt->execute(
-                        array(
-                            Group::PK       => $this->id,
-                            Adherent::PK    => $m->id
+                        array_values(
+                            array(
+                                self::PK        => $this->id,
+                                Adherent::PK    => $m->id
+                            )
                         )
                     );
 

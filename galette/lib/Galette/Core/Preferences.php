@@ -264,9 +264,11 @@ class Preferences
 
                 foreach ($params as $p) {
                     $stmt->execute(
-                        array(
-                            'nom_pref' => $p['nom_pref'],
-                            'val_pref' => $p['val_pref']
+                        array_values(
+                            array(
+                                'nom_pref' => $p['nom_pref'],
+                                'val_pref' => $p['val_pref']
+                            )
                         )
                     );
                 }
@@ -344,9 +346,11 @@ class Preferences
 
             foreach ($values as $k => $v) {
                 $stmt->execute(
-                    array(
-                        'nom_pref' => $k,
-                        'val_pref' => $v
+                    array_values(
+                        array(
+                            'nom_pref' => $k,
+                            'val_pref' => $v
+                        )
                     )
                 );
             }
@@ -649,9 +653,11 @@ class Preferences
                 }
 
                 $stmt->execute(
-                    array(
-                        'val_pref'  => $value,
-                        'where1'    => $k
+                    array_values(
+                        array(
+                            'val_pref'  => $value,
+                            'nom_pref'  => $k
+                        )
                     )
                 );
             }

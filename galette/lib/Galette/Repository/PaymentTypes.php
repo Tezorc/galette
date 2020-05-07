@@ -225,7 +225,7 @@ class PaymentTypes extends Repository
                 ':type_id'      => $k,
                 ':type_name'    => $v
             ];
-            $stmt->execute($value);
+            $stmt->execute(array_values($value));
         }
     }
 

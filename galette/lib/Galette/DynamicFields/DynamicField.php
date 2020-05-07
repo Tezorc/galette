@@ -788,9 +788,11 @@ abstract class DynamicField
 
                     for ($i = 0; $i < count($this->values); $i++) {
                         $stmt->execute(
-                            array(
-                                'id'    => $i,
-                                'val'   => $this->values[$i]
+                            array_values(
+                                array(
+                                    'id'    => $i,
+                                    'vale'  => $this->values[$i]
+                                )
                             )
                         );
                     }

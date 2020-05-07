@@ -221,7 +221,7 @@ class PdfModels extends Repository
         $stmt = $this->zdb->sql->prepareStatementForSqlObject($insert);
 
         foreach ($values as $value) {
-            $stmt->execute($value);
+            $stmt->execute(array_values($value));
         }
     }
 

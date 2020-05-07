@@ -197,10 +197,12 @@ abstract class Entitled
                 }
 
                 $stmt->execute(
-                    array(
-                        $fnames[0]  => $d['id'],
-                        $fnames[1]  => $d['libelle'],
-                        $fnames[2]  => $val
+                    array_values(
+                        array(
+                            $fnames[0]  => $d['id'],
+                            $fnames[1]  => $d['libelle'],
+                            $fnames[2]  => $val
+                        )
                     )
                 );
             }

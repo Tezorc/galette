@@ -540,16 +540,16 @@ class Picture implements FileInterface
                 $stmt = $zdb->sql->prepareStatementForSqlObject($insert);
                 $container = $stmt->getParameterContainer();
                 $container->offsetSet(
-                    $class::PK,
+                    'c_0', //$class::PK,
                     ':id'
                 );
                 $container->offsetSet(
-                    'picture',
+                    'c_1', //'picture',
                     ':picture',
                     $container::TYPE_LOB
                 );
                 $container->offsetSet(
-                    'format',
+                    'c_2', //'format',
                     ':format'
                 );
                 $stmt->setParameterContainer($container);
@@ -557,16 +557,19 @@ class Picture implements FileInterface
             }
 
             $stmt->execute(
-                array(
-                    $class::PK  => $id,
-                    'picture'   => $picture,
-                    'format'    => $ext
+                array_values(
+                    array(
+                        $class::PK  => $id,
+                        'picture'   => $picture,
+                        'format'    => $ext
+                    )
                 )
             );
             $zdb->connection->commit();
             $this->has_picture = true;
         } catch (\Exception $e) {
             $zdb->connection->rollBack();
+            throw $e;
             Analog::log(
                 'An error occurred storing picture in database: ' .
                 $e->getMessage(),
