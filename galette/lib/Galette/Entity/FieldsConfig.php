@@ -932,7 +932,7 @@ class FieldsConfig
                     'table_name'            => $d['table_name'],
                     'required'              => $required,
                     'visible'               => $d['visible'],
-                    FieldsCategories::PK    => $d['category'],
+                    'category'              => $d['category'],
                     'position'              => $d['position'],
                     'list_visible'          => $list_visible,
                     'list_position'         => $d['list_position'] ?? -1
