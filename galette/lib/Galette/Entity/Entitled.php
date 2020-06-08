@@ -198,12 +198,10 @@ abstract class Entitled
 
                 //FIXME: ensure params order is the same as query params
                 $stmt->execute(
-                    array_values(
-                        array(
-                            $fnames[0]  => $d['id'],
-                            $fnames[1]  => $d['libelle'],
-                            $fnames[2]  => $val
-                        )
+                    array(
+                        $fnames[0]  => $d['id'],
+                        $fnames[1]  => $d['libelle'],
+                        $fnames[2]  => $val
                     )
                 );
             }

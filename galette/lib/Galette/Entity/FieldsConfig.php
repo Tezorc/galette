@@ -773,7 +773,8 @@ class FieldsConfig
                         FieldsCategories::PK    => $field['category'],
                         'field_id'              => $field['field_id']
                     );
-                    $stmt->execute(array_values($params));
+
+                    $stmt->execute($params);
                 }
             }
 
@@ -853,13 +854,11 @@ class FieldsConfig
 
             foreach ($old_required as $or) {
                 $stmt->execute(
-                    array_values(
-                        array(
-                            'required'  => ($or->required === false) ?
-                                ($this->zdb->isPostgres() ? 'false' : 0) :
-                                true,
-                            'field_id'  => $or->field_id
-                        )
+                    array(
+                        'required'  => ($or->required === false) ?
+                            ($this->zdb->isPostgres() ? 'false' : 0) :
+                            true,
+                        'field_id'  => $or->field_id
                     )
                 );
             }
@@ -928,8 +927,7 @@ class FieldsConfig
             }
 
             $stmt->execute(
-                array_values(
-                    array(
+                array(
                     'field_id'              => $d['field_id'],
                     'table_name'            => $d['table_name'],
                     'required'              => $required,

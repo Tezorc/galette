@@ -305,11 +305,9 @@ class Groups
                     list($gid, $gname) = explode('|', $group);
 
                     $result = $stmt->execute(
-                        array_values(
-                            array(
-                                Group::PK       => $gid,
-                                Adherent::PK    => $adh->id
-                            )
+                        array(
+                            Group::PK       => $gid,
+                            Adherent::PK    => $adh->id
                         )
                     );
 

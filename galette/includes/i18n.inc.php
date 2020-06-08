@@ -147,10 +147,8 @@ function deleteDynamicTranslation($text_orig)
 
         foreach ($i18n->getList() as $lang) {
             $stmt->execute(
-                array_values(
-                    array(
-                        'lang_id' => $lang->getLongID()
-                    )
+                array(
+                    'lang_id' => $lang->getLongID()
                 )
             );
         }

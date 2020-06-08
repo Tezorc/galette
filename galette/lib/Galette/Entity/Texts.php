@@ -507,7 +507,7 @@ class Texts
         $stmt = $zdb->sql->prepareStatementForSqlObject($insert);
 
         foreach ($values as $value) {
-            $stmt->execute(array_values($value));
+            $stmt->execute($value);
         }
     }
 

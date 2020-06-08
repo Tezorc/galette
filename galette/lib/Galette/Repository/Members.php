@@ -1204,11 +1204,9 @@ class Members
                     $ids = [];
                     foreach ($this->filters->groups_search as $gs) { // then add a row for each ig/searched group pair
                         $gresults = $stmt->execute(
-                            array_values(
-                                array(
-                                    'group'     => $gs['group'],
-                                    'pgroup'    => $gs['group']
-                                )
+                            array(
+                                'group'     => $gs['group'],
+                                'pgroup'    => $gs['group']
                             )
                         );
 
@@ -1668,12 +1666,10 @@ class Members
 
                     if ($dirty === true) {
                         $stmt->execute(
-                            array_values(
-                                array(
-                                    'login_adh' => $m->login_adh,
-                                    'mdp_adh'   => $m->mdp_adh,
-                                    'id'        => $m->id_adh
-                                )
+                            array(
+                                'login_adh' => $m->login_adh,
+                                'mdp_adh'   => $m->mdp_adh,
+                                'id'        => $m->id_adh
                             )
                         );
                         $processed++;

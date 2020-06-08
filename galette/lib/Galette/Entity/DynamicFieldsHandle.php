@@ -294,15 +294,7 @@ class DynamicFieldsHandle
                             $this->insert_stmt = $this->zdb->sql->prepareStatementForSqlObject($insert);
                         }
                         unset($value['is_new']);
-                        $this->insert_stmt->execute(
-                            array_values([
-                                'item_id'       => $value['item_id'],
-                                'field_id'      => $value['field_id'],
-                                'field_form'    => $value['field_form'],
-                                'val_index'     => $value['val_index'],
-                                'field_val'     => $value['field_val']
-                            ])
-                        );
+                        $this->insert_stmt->execute($value);
                         $this->has_changed = true;
                     } else {
                         if ($this->update_stmt === null) {
@@ -328,7 +320,7 @@ class DynamicFieldsHandle
                                 $value['old_val_index'] :
                                 $value['val_index']
                         ];
-                        $this->update_stmt->execute(array_values($params));
+                        $this->update_stmt->execute($params);
                         $this->has_changed = true;
                     }
                 }
@@ -406,7 +398,7 @@ class DynamicFieldsHandle
                     ]);
                     $this->delete_stmt = $this->zdb->sql->prepareStatementForSqlObject($delete);
                 }
-                $this->delete_stmt->execute(array_values($entry));
+                $this->delete_stmt->execute($entry);
                 //update val index
                 $field_id = $entry['where3'];
                 if (isset($this->current_values[$field_id])

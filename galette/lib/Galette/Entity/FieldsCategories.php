@@ -135,9 +135,9 @@ class FieldsCategories
             foreach ($categories as $k => $v) {
                 $params = array(
                     'position'  => $k,
-                    'pk'        => $v
+                    'where1'    => $v
                 );
-                $stmt->execute(array_values($params));
+                $stmt->execute($params);
             }
             $zdb->connection->commit();
         } catch (\Exception $e) {
@@ -172,13 +172,11 @@ class FieldsCategories
 
             foreach ($this->defaults as $d) {
                 $stmt->execute(
-                    array_values(
-                        array(
-                            self::PK        => $d['id'],
-                            'table_name'    => $d['table_name'],
-                            'category'      => $d['category'],
-                            'position'      => $d['position']
-                        )
+                    array(
+                        self::PK        => $d['id'],
+                        'table_name'    => $d['table_name'],
+                        'category'      => $d['category'],
+                        'position'      => $d['position']
                     )
                 );
             }

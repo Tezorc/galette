@@ -151,12 +151,10 @@ class Titles
                     $long = _T($d['long_label']);
                 }
                 $stmt->execute(
-                    array_values(
-                        array(
-                            'id_title'      => $d['id_title'],
-                            'short_label'   => $short,
-                            'long_label'    => $long
-                        )
+                    array(
+                        'id_title'      => $d['id_title'],
+                        'short_label'   => $short,
+                        'long_label'    => $long
                     )
                 );
             }
