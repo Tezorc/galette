@@ -745,7 +745,7 @@ class FieldsConfig
                     'required'              => ':required',
                     'visible'               => ':visible',
                     'position'              => ':position',
-                    FieldsCategories::PK    => ':category'
+                    FieldsCategories::PK    => ':'.FieldsCategories::PK
                 )
             )->where(
                 array(
@@ -806,6 +806,7 @@ class FieldsConfig
                 $e->getTraceAsString(),
                 Analog::ERROR
             );
+            throw $e;
             return false;
         }
     }
