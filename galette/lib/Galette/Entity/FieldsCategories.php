@@ -135,7 +135,7 @@ class FieldsCategories
             foreach ($categories as $k => $v) {
                 $params = array(
                     'position'  => $k,
-                    'where1'    => $v
+                    'pk'        => $v
                 );
                 $stmt->execute($params);
             }

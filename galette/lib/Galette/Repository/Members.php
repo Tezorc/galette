@@ -1667,9 +1667,9 @@ class Members
                     if ($dirty === true) {
                         $stmt->execute(
                             array(
-                                'login_adh' => $m->login_adh,
-                                'mdp_adh'   => $m->mdp_adh,
-                                'id'        => $m->id_adh
+                                'login' => $m->login_adh,
+                                'pass'  => $m->mdp_adh,
+                                'id'    => $m->id_adh
                             )
                         );
                         $processed++;
