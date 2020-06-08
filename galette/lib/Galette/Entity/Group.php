@@ -757,8 +757,8 @@ class Group
                 foreach ($members as $m) {
                     $result = $stmt->execute(
                         array(
-                            self::PK        => $this->id,
-                            Adherent::PK    => $m->id
+                            'group' => $this->id,
+                            'adh'   => $m->id
                         )
                     );
 
