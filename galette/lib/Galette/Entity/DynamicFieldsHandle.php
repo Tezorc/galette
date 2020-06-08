@@ -406,14 +406,7 @@ class DynamicFieldsHandle
                     ]);
                     $this->delete_stmt = $this->zdb->sql->prepareStatementForSqlObject($delete);
                 }
-                $this->delete_stmt->execute(
-                    array_values([
-                        'item_id'       => $entry['item_id'],
-                        'field_form'    => $entry['field_form'],
-                        'field_id'      => $entry['field_id'],
-                        'val_index'     => $entry['val_index']
-                    ])
-                );
+                $this->delete_stmt->execute(array_values($entry));
                 //update val index
                 $field_id = $entry['where3'];
                 if (isset($this->current_values[$field_id])
