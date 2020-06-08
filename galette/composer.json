@@ -53,7 +53,8 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "patch -d vendor/fzaninotto/faker/ -p1 < ../patches/0001-Fix-PHP-7.4-array-syntax.patch"
+            "patch -d vendor/fzaninotto/faker/ -p1 < ../patches/0001-Fix-PHP-7.4-array-syntax.patch",
+            "patch -d vendor/laminas/laminas-db/ -p1 < ../patches/laminas-db-pr-160.patch"
         ]
     }
 }
