@@ -1,0 +1,2120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files psalm-version="3.11.5@3c60609c218d4d4b3b257728b8089094e5c6c6c2">
+  <file src="galette/lib/Galette/Common/ClassLoader.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>The</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="galette/lib/Galette/Common/XHProf.php">
+    <UndefinedConstant occurrences="3">
+      <code>XHPROF_FLAGS_NO_BUILTINS</code>
+      <code>XHPROF_FLAGS_CPU</code>
+      <code>XHPROF_FLAGS_MEMORY</code>
+    </UndefinedConstant>
+  </file>
+  <file src="galette/lib/Galette/Controllers/AbstractController.php">
+    <UndefinedDocblockClass occurrences="22">
+      <code>Galette\Core\Db</code>
+      <code>Galette\Core\Login</code>
+      <code>Galette\Core\Preferences</code>
+      <code>Slim\Views\Smarty</code>
+      <code>Galette\Core\Logo</code>
+      <code>Galette\Core\Plugins</code>
+      <code>Slim\Router</code>
+      <code>Galette\Core\History</code>
+      <code>Galette\Core\I18n</code>
+      <code>Slim\Flash\Messages</code>
+      <code>Galette\Entity\FieldsConfig</code>
+      <code>Galette\Entity\ListsConfig</code>
+      <code>Galette\Handlers\NotFound</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="galette/lib/Galette/Controllers/AdminToolsController.php">
+    <UndefinedDocblockClass occurrences="6">
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;view</code>
+      <code>$fc</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="10">
+      <code>_T('Administration tools')</code>
+      <code>_T("Some PHP modules are missing. Please install them or contact your support.&lt;br/&gt;More information on required modules may be found in the documentation.")</code>
+      <code>_T("Texts has been successfully reinitialized.")</code>
+      <code>_T("An error occurred reinitializing texts :(")</code>
+      <code>_T("Fields configuration has been successfully reinitialized.")</code>
+      <code>_T("An error occurred reinitializing fields configuration :(")</code>
+      <code>_T("PDF models has been successfully reinitialized.")</code>
+      <code>_T("An error occurred reinitializing PDF models :(")</code>
+      <code>_T("Logins and passwords has been successfully filled (%i processed).")</code>
+      <code>_T("An error occurred filling empty logins and passwords :(")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Controllers/AuthController.php">
+    <UndefinedDocblockClass occurrences="62">
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;preferences-&gt;pref_admin_login</code>
+      <code>$this-&gt;preferences-&gt;pref_admin_pass</code>
+      <code>$this-&gt;preferences-&gt;pref_admin_pass</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;history</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;history</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;history</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login-&gt;login</code>
+      <code>$this-&gt;history</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;history</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;preferences-&gt;pref_admin_login</code>
+      <code>$this-&gt;history</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;preferences-&gt;pref_mail_method</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;preferences-&gt;pref_mail_method</code>
+      <code>$this-&gt;preferences-&gt;pref_mail_method</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;preferences</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;history</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;history</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;history</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;history</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;history</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;history</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="31">
+      <code>_T("Login")</code>
+      <code>_T("You must provide both login and password.")</code>
+      <code>_T("Your password is too weak! Please consider updating it.")</code>
+      <code>_T("Login")</code>
+      <code>_T("Login failed.")</code>
+      <code>_T("Authentication failed")</code>
+      <code>_T("Log off")</code>
+      <code>_T("Impersonating as %login")</code>
+      <code>_T("Unable to impersonate as %id")</code>
+      <code>_T("Impersonating ended")</code>
+      <code>_T("Impersonating ended")</code>
+      <code>_T("Password recovery")</code>
+      <code>_T("Email sent is disabled in the preferences. Ask galette admin")</code>
+      <code>_T("Y-m-d H:i:s")</code>
+      <code>_T("Y-m-d H:i:s")</code>
+      <code>_T("Email sent to '%s' for password recovery.")</code>
+      <code>_T("An email has been sent to your address.&lt;br/&gt;Please check your inbox and follow the instructions.")</code>
+      <code>_T("An email has been sent to the member.")</code>
+      <code>_T("A problem happened while sending password for account '%s'")</code>
+      <code>_T("An error occurred storing temporary password for %s. Please inform an admin.")</code>
+      <code>_T("Your account (%s) do not contain any valid email address")</code>
+      <code>_T("Mails address %s does not exist")</code>
+      <code>_T("Login %s does not exist")</code>
+      <code>_T("This link is no longer valid. You should ask to retrieve your password again.")</code>
+      <code>_T("Password recovery")</code>
+      <code>_T("No password")</code>
+      <code>_T("- The passwords don't match!")</code>
+      <code>_T("Your password is too weak!")</code>
+      <code>_T("An error occurred while updating your password.")</code>
+      <code>_T("Password changed for member '%s'.")</code>
+      <code>_T("Your password has been changed!")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Controllers/Crud/ContributionsController.php">
+    <UndefinedDocblockClass occurrences="40">
+      <code>$this-&gt;preferences-&gt;pref_membership_ext</code>
+      <code>$this-&gt;preferences-&gt;pref_membership_ext</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login-&gt;id</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;preferences-&gt;pref_new_contrib_script</code>
+      <code>$this-&gt;preferences-&gt;pref_mail_method</code>
+      <code>$this-&gt;preferences-&gt;vpref_email_newadh</code>
+      <code>$this-&gt;history</code>
+      <code>$this-&gt;preferences-&gt;pref_mail_method</code>
+      <code>$this-&gt;preferences</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;preferences</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;history</code>
+      <code>$this-&gt;history</code>
+      <code>$this-&gt;history</code>
+      <code>$this-&gt;preferences-&gt;pref_bool_mailadh</code>
+      <code>$this-&gt;preferences-&gt;pref_lang</code>
+      <code>$this-&gt;preferences-&gt;vpref_email_newadh</code>
+      <code>$this-&gt;history</code>
+      <code>$this-&gt;history</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;preferences-&gt;pref_membership_ext</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="27">
+      <code>_T("Membership fee")</code>
+      <code>_T("Donation")</code>
+      <code>_T("modification")</code>
+      <code>_T("creation")</code>
+      <code>_T("Contributions management")</code>
+      <code>_T("Transactions management")</code>
+      <code>_T("start date filter")</code>
+      <code>_T("end date filter")</code>
+      <code>_T("Unable to load contribution #%id!")</code>
+      <code>_T('Contribution has been successfully stored')</code>
+      <code>_T("Post contribution script failed")</code>
+      <code>_T("The configured post contribution script has failed.")</code>
+      <code>_T("You can find contribution information and script output below.")</code>
+      <code>_T("An error occurred while storing the contribution.")</code>
+      <code>_T("Email sent to user %name (%email)")</code>
+      <code>_T("A problem happened while sending contribution receipt to user %name (%email)")</code>
+      <code>_T("Trying to send an email to a member (%name) with an invalid address: %email")</code>
+      <code>_T("Email sent to admin for user %name (%email)")</code>
+      <code>_T("A problem happened while sending to admin notification for user %name (%email) contribution")</code>
+      <code>_T('Remove %1$s %2$s')</code>
+      <code>_T('contributions')</code>
+      <code>_T('transactions')</code>
+      <code>_T('Remove %1$s #%2$s')</code>
+      <code>_T('contribution')</code>
+      <code>_T('transaction')</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Controllers/Crud/DynamicFieldsController.php">
+    <UndefinedDocblockClass occurrences="23">
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="12">
+      <code>_T("Add field")</code>
+      <code>_T('An error occurred adding dynamic field :(')</code>
+      <code>_T('Dynamic field has been successfully stored!')</code>
+      <code>_T("Dynamic fields configuration")</code>
+      <code>_T("Unable to retrieve field information.")</code>
+      <code>_T("Edit field")</code>
+      <code>_T('An error occurred editing dynamic field :(')</code>
+      <code>_T('Dynamic field has been successfully stored!')</code>
+      <code>_T("Requested field does not exists!")</code>
+      <code>_T('Remove dynamic field %1$s')</code>
+      <code>_T("Field has been successfully moved")</code>
+      <code>_T("An error occurred moving field :(")</code>
+    </UndefinedFunction>
+    <UndefinedVariable occurrences="1">
+      <code>$response</code>
+    </UndefinedVariable>
+  </file>
+  <file src="galette/lib/Galette/Controllers/Crud/EntitledsController.php">
+    <UndefinedDocblockClass occurrences="7">
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="9">
+      <code>_T("User statuses")</code>
+      <code>_T("Contribution types")</code>
+      <code>_T("Edit status")</code>
+      <code>_T("Edit contribution type")</code>
+      <code>_T("%type has not been added :(")</code>
+      <code>_T("%type #%id has not been updated")</code>
+      <code>_T("%type has been successfully added!")</code>
+      <code>_T("%type #%id has been successfully updated!")</code>
+      <code>_T("Remove %type '%label'")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Controllers/Crud/GroupsController.php">
+    <UndefinedDocblockClass occurrences="15">
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login-&gt;id</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="6">
+      <code>_T("Group name is missing!")</code>
+      <code>_T("Groups")</code>
+      <code>_T("Group `%groupname` has been successfully saved.")</code>
+      <code>_T("An error occurred while storing the group.")</code>
+      <code>_T('Remove group %1$s')</code>
+      <code>_T("Group is not empty, it cannot be deleted. Use cascade delete instead.")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Controllers/Crud/MailingsController.php">
+    <UndefinedDocblockClass occurrences="30">
+      <code>$this-&gt;preferences-&gt;pref_mail_method</code>
+      <code>$this-&gt;history</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login-&gt;id</code>
+      <code>$this-&gt;preferences-&gt;pref_editor_enabled</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;preferences-&gt;pref_mail_method</code>
+      <code>$this-&gt;history</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;login-&gt;id</code>
+      <code>$this-&gt;logo</code>
+      <code>$this-&gt;logo</code>
+      <code>$this-&gt;preferences-&gt;pref_editor_enabled</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;login-&gt;id</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;view</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="16">
+      <code>_T("Trying to load mailing while email is disabled in preferences.")</code>
+      <code>_T("Trying to load mailing while email is disabled in preferences.")</code>
+      <code>_T('No member selected for mailing!')</code>
+      <code>_T("Mailing")</code>
+      <code>_T("Trying to load mailing while email is disabled in preferences.")</code>
+      <code>_T("Trying to load mailing while email is disabled in preferences.")</code>
+      <code>_T('No member selected for mailing!')</code>
+      <code>_T("Please type an object for the message.")</code>
+      <code>_T("Please enter a message.")</code>
+      <code>_T("Mailing has been successfully sent!")</code>
+      <code>_T("Mailing has been successfully saved.")</code>
+      <code>_T("Mailings")</code>
+      <code>_T("start date filter")</code>
+      <code>_T("end date filter")</code>
+      <code>_T('Remove mailing #%1$s')</code>
+      <code>_T("Mailing preview")</code>
+    </UndefinedFunction>
+    <UndefinedVariable occurrences="1">
+      <code>$profiler</code>
+    </UndefinedVariable>
+  </file>
+  <file src="galette/lib/Galette/Controllers/Crud/MembersController.php">
+    <UndefinedDocblockClass occurrences="141">
+      <code>$this-&gt;preferences-&gt;pref_bool_selfsubscribe</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;router</code>
+      <code>$fc</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$fc</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;i18n</code>
+      <code>$this-&gt;preferences-&gt;pref_card_self</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;login-&gt;id</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;lists_config</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$fc</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login-&gt;login</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login-&gt;id</code>
+      <code>$this-&gt;login-&gt;login</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;login-&gt;id</code>
+      <code>$fc</code>
+      <code>$fc</code>
+      <code>$fc</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$fc</code>
+      <code>$fc</code>
+      <code>$fc</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;router</code>
+      <code>$fc</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$fc</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$fc</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;preferences-&gt;pref_bool_selfsubscribe</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login-&gt;id</code>
+      <code>$this-&gt;login-&gt;id</code>
+      <code>$fc</code>
+      <code>$fc</code>
+      <code>$fc</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$fc</code>
+      <code>$fc</code>
+      <code>$fc</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;preferences-&gt;pref_mail_method</code>
+      <code>$this-&gt;preferences-&gt;pref_mail_method</code>
+      <code>$this-&gt;preferences-&gt;pref_bool_mailadh</code>
+      <code>$this-&gt;preferences-&gt;pref_lang</code>
+      <code>$this-&gt;preferences-&gt;vpref_email_newadh</code>
+      <code>$this-&gt;history</code>
+      <code>$this-&gt;history</code>
+      <code>$this-&gt;preferences-&gt;pref_mail_method</code>
+      <code>$this-&gt;preferences</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;history</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;preferences-&gt;pref_lang</code>
+      <code>$this-&gt;history</code>
+      <code>$this-&gt;history</code>
+      <code>$this-&gt;preferences-&gt;pref_mail_method</code>
+      <code>$this-&gt;preferences-&gt;pref_mail_method</code>
+      <code>$this-&gt;preferences-&gt;pref_bool_mailadh</code>
+      <code>$this-&gt;login-&gt;id</code>
+      <code>$this-&gt;preferences-&gt;pref_lang</code>
+      <code>$this-&gt;preferences-&gt;vpref_email_newadh</code>
+      <code>$this-&gt;history</code>
+      <code>$this-&gt;history</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="46">
+      <code>_T("Subscription")</code>
+      <code>_T("You do not have permission for requested URL.")</code>
+      <code>_T("No member #%id.")</code>
+      <code>_T("Member Profile")</code>
+      <code>_T("Members list")</code>
+      <code>_T('Trombinoscope')</code>
+      <code>_T("You do not have permission for requested URL.")</code>
+      <code>_T("The file does not exists or cannot be read :(")</code>
+      <code>_T("Members management")</code>
+      <code>_T('Status label')</code>
+      <code>_T("Advanced search")</code>
+      <code>_T("No member was selected, please check at least one name.")</code>
+      <code>_T("Member ID cannot ben null calling edit route!")</code>
+      <code>_T("You do not have permission for requested URL.")</code>
+      <code>_T("Member Profile")</code>
+      <code>_T("modification")</code>
+      <code>_T("creation")</code>
+      <code>_T('Mass change %count members')</code>
+      <code>_T("Mass changes has not been confirmed!")</code>
+      <code>_T('Review mass change %count members')</code>
+      <code>_T("Mass changes has not been confirmed!")</code>
+      <code>_T("Nothing to do!")</code>
+      <code>_T("An error occurred while storing the member.")</code>
+      <code>_T('Something went wront during mass edition!')</code>
+      <code>_T('%count members has been changed successfully!')</code>
+      <code>_T("Your account has been created!")</code>
+      <code>_T("An email has been sent to you, check your inbox.")</code>
+      <code>_T("New member has been successfully added.")</code>
+      <code>_T("New account email sent to admin for '%s'.")</code>
+      <code>_T("A problem happened while sending email to admin for account '%s'.")</code>
+      <code>_T("Member account has been modified.")</code>
+      <code>_T("- You can't send a confirmation by email if the member hasn't got an address!")</code>
+      <code>_T("Y-m-d H:i:s")</code>
+      <code>_T("An error occurred storing temporary password for %s. Please inform an admin.")</code>
+      <code>_T("New account email sent to '%s'.")</code>
+      <code>_T("Account modification email sent to '%s'.")</code>
+      <code>_T("A problem happened while sending account email to '%s'")</code>
+      <code>_T("You asked Galette to send a confirmation email to the member, but email has been disabled in the preferences.")</code>
+      <code>_T("Account modification email sent to admin.")</code>
+      <code>_T("A problem happened while sending account email to admin")</code>
+      <code>_T("An error occurred adding member to its groups.")</code>
+      <code>_T("An error occurred adding member to its groups as manager.")</code>
+      <code>_T("An error occurred while storing the member.")</code>
+      <code>_T("Delete failed")</code>
+      <code>_T('Remove member %1$s')</code>
+      <code>_T('You are about to remove %count members.')</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Controllers/Crud/PaymentTypeController.php">
+    <UndefinedDocblockClass occurrences="10">
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="7">
+      <code>_T("Payment types management")</code>
+      <code>_T("Edit payment type")</code>
+      <code>_T("Payment type '%s' has not been added!")</code>
+      <code>_T("Payment type '%s' has not been modified!")</code>
+      <code>_T("Payment type '%s' has been successfully added.")</code>
+      <code>_T("Payment type '%s' has been successfully modified.")</code>
+      <code>_T('Remove payment type %1$s')</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Controllers/Crud/SavedSearchesController.php">
+    <UndefinedDocblockClass occurrences="12">
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="8">
+      <code>_T("An SQL error has occurred while storing search.")</code>
+      <code>_T("This search is already saved.")</code>
+      <code>_T("Search has been saved.")</code>
+      <code>_T("Saved searches")</code>
+      <code>_T('Remove saved search')</code>
+      <code>_T('You are about to remove %count searches.')</code>
+      <code>_T("Saved search loaded")</code>
+      <code>_T("An SQL error has occurred while loading search.")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Controllers/Crud/TitlesController.php">
+    <UndefinedDocblockClass occurrences="9">
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="7">
+      <code>_T("Titles management")</code>
+      <code>_T("Edit title")</code>
+      <code>_T("Title '%s' has not been added!")</code>
+      <code>_T("Title '%s' has not been modified!")</code>
+      <code>_T("Title '%s' has been successfully added.")</code>
+      <code>_T("Title '%s' has been successfully modified.")</code>
+      <code>_T('Remove title %1$s')</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Controllers/Crud/TransactionsController.php">
+    <UndefinedDocblockClass occurrences="13">
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="12">
+      <code>_T("Transaction ID cannot ben null calling edit route!")</code>
+      <code>_T("Transaction")</code>
+      <code>_T("modification")</code>
+      <code>_T("creation")</code>
+      <code>_T("Transaction ID cannot ben null calling edit route!")</code>
+      <code>_T("Transaction ID cannot ben set while adding!")</code>
+      <code>_T("An error occurred while storing the transaction.")</code>
+      <code>_T("Transaction has been successfully stored")</code>
+      <code>_T("Unable to attach contribution to transaction")</code>
+      <code>_T("Contribution has been successfully attached to current transaction")</code>
+      <code>_T("Unable to detach contribution from transaction")</code>
+      <code>_T("Contribution has been successfully detached from current transaction")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Controllers/CrudController.php">
+    <UndefinedDocblockClass occurrences="7">
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;zdb-&gt;connection</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;zdb-&gt;connection</code>
+      <code>$this-&gt;zdb-&gt;connection</code>
+      <code>$this-&gt;flash</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="3">
+      <code>_T("Removal has not been confirmed!")</code>
+      <code>_T('Successfully deleted!')</code>
+      <code>_T('An error occurred trying to delete :(')</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Controllers/CsvController.php">
+    <UndefinedDocblockClass occurrences="37">
+      <code>$this-&gt;zdb</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;zdb-&gt;sql</code>
+      <code>$this-&gt;zdb</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="20">
+      <code>_T("CVS database Export")</code>
+      <code>_T("Table %table is empty, and has not been exported.")</code>
+      <code>_T("Export file could not be write on disk for '%export'. Make sure web server can write in the exports directory.")</code>
+      <code>_T("An error occurred running parameted export '%export'.")</code>
+      <code>_T("An error occurred running parameted export '%export'. Please check the logs.")</code>
+      <code>_T("CSV members import")</code>
+      <code>_T("An error occurred importing the file :(")</code>
+      <code>_T("File '%filename%' has been successfully imported :)")</code>
+      <code>_T("Your file has been successfully uploaded!")</code>
+      <code>_T("No files has been seleted for upload!")</code>
+      <code>_T("No files has been uploaded!")</code>
+      <code>_T('Remove %1$s file %2$s')</code>
+      <code>_T("Removal has not been confirmed!")</code>
+      <code>_T("'%export' file has been removed from disk.")</code>
+      <code>_T("Cannot remove '%export' from disk :/")</code>
+      <code>__($field-&gt;getname())</code>
+      <code>_T("CSV import model")</code>
+      <code>_T("galette_import_model.csv")</code>
+      <code>_T("Import model has been successfully stored :)")</code>
+      <code>_T("Import model has not been stored :(")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Controllers/DynamicTranslationsController.php">
+    <UndefinedDocblockClass occurrences="5">
+      <code>$this-&gt;zdb</code>
+      <code>$this-&gt;zdb</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="5">
+      <code>_T("Translate labels")</code>
+      <code>_T("An error occurred saving label `%label` for language `%lang`")</code>
+      <code>_T("Labels has been sucessfully translated!")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Controllers/GaletteController.php">
+    <AssignmentToVoid occurrences="1">
+      <code>$reminders</code>
+    </AssignmentToVoid>
+    <UndefinedDocblockClass occurrences="58">
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;preferences-&gt;pref_rss_url</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;preferences</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;preferences</code>
+      <code>$this-&gt;preferences</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;preferences</code>
+      <code>$this-&gt;logo</code>
+      <code>$this-&gt;logo</code>
+      <code>$this-&gt;logo</code>
+      <code>$this-&gt;logo</code>
+      <code>$this-&gt;logo</code>
+      <code>$this-&gt;preferences</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;preferences-&gt;pref_mail_method</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;preferences-&gt;pref_email_newadh</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;view</code>
+      <code>$fc</code>
+      <code>$fc</code>
+      <code>$this-&gt;view</code>
+      <code>$fc</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$lc</code>
+      <code>$lc</code>
+      <code>$this-&gt;view</code>
+      <code>$lc</code>
+      <code>$lc</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;preferences-&gt;pref_lang</code>
+      <code>$this-&gt;preferences-&gt;pref_lang</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;view</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="31">
+      <code>_T("System information")</code>
+      <code>_T("Dashboard")</code>
+      <code>_T("Settings")</code>
+      <code>_T("All accounts")</code>
+      <code>_T("Active accounts")</code>
+      <code>_T("Inactive accounts")</code>
+      <code>_T("An SQL error has occurred while storing preferences. Please try again, and contact the administrator if the problem persists.")</code>
+      <code>_T("Preferences has been saved.")</code>
+      <code>_T("Delete failed")</code>
+      <code>_T("Delete failed")</code>
+      <code>_T("You asked Galette to send a test email, but email has been disabled in the preferences.")</code>
+      <code>_T('Test message')</code>
+      <code>_T("Galette admin")</code>
+      <code>_T('Test message.')</code>
+      <code>_T("An email has been sent to %email")</code>
+      <code>_T("No email sent to %email")</code>
+      <code>_T("Invalid email adress!")</code>
+      <code>_T("Charts")</code>
+      <code>_T("Fields configuration")</code>
+      <code>_T("Fields configuration has been successfully stored")</code>
+      <code>_T("An error occurred while storing fields configuration :(")</code>
+      <code>_T("Lists configuration")</code>
+      <code>_T("List configuration has been successfully stored")</code>
+      <code>_T("An error occurred while storing list configuration :(")</code>
+      <code>_T('Generate fake data')</code>
+      <code>_T("Reminders")</code>
+      <code>_T("No reminder to send for now.")</code>
+      <code>_T("There are no member to proceed.")</code>
+      <code>_T("Reminder has not been sent:")</code>
+      <code>_T("Sent reminders:")</code>
+      <code>_T('Download document')</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Controllers/HistoryController.php">
+    <UndefinedDocblockClass occurrences="14">
+      <code>$this-&gt;history</code>
+      <code>$this-&gt;history</code>
+      <code>$this-&gt;history-&gt;filters</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;history</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;zdb-&gt;connection</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;router</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="7">
+      <code>_T("Logs")</code>
+      <code>_T("start date filter")</code>
+      <code>_T("end date filter")</code>
+      <code>_T("Removal has not been confirmed!")</code>
+      <code>_T('Logs have been flushed!')</code>
+      <code>_T('An error occurred trying to flush logs :(')</code>
+      <code>_T('Flush the logs')</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Controllers/ImagesController.php">
+    <UndefinedDocblockClass occurrences="2">
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;preferences</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="galette/lib/Galette/Controllers/PdfController.php">
+    <UndefinedClass occurrences="2">
+      <code>new $class($this-&gt;zdb, $this-&gt;preferences, (int)$_POST[PdfModel::PK])</code>
+      <code>new $class($this-&gt;zdb, $this-&gt;preferences)</code>
+    </UndefinedClass>
+    <UndefinedDocblockClass occurrences="36">
+      <code>$this-&gt;login-&gt;id</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;login-&gt;id</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;preferences-&gt;pref_adhesion_form</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;view</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;router</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="19">
+      <code>_T("You do not have permission for requested URL.")</code>
+      <code>_T("No member was selected, please check at least one name.")</code>
+      <code>_T("Unable to get members list.")</code>
+      <code>_T("No member was selected, please check at least one name.")</code>
+      <code>_T("Unable to get members list.")</code>
+      <code>_T("You do not have permission for requested URL.")</code>
+      <code>_T("Attendance sheet configuration")</code>
+      <code>_T("No member selected to generate attendance sheet")</code>
+      <code>_T("No member selected to generate attendance sheet")</code>
+      <code>_T("Attendance sheet")</code>
+      <code>_T("Unable to load contribution #%id!")</code>
+      <code>_T("Unable to get groups list.")</code>
+      <code>_T("PDF models")</code>
+      <code>_T("Missing PDF model type!")</code>
+      <code>_T("Model has been successfully stored!")</code>
+      <code>_T("Model has not been stored :(")</code>
+      <code>_T("Invalid link!")</code>
+      <code>_T("Unable to get members list.")</code>
+      <code>_T("Unable to load contribution #%id!")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Controllers/PluginsController.php">
+    <MissingFile occurrences="1">
+      <code>include_once __DIR__ . '/../../install/steps/db_checks.php'</code>
+    </MissingFile>
+    <UndefinedDocblockClass occurrences="15">
+      <code>$plugins</code>
+      <code>$plugins</code>
+      <code>$this-&gt;view</code>
+      <code>$plugins</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$plugins</code>
+      <code>$this-&gt;flash</code>
+      <code>$this-&gt;flash</code>
+      <code>$plugins</code>
+      <code>$this-&gt;i18n</code>
+      <code>$this-&gt;router</code>
+      <code>$this-&gt;plugins</code>
+      <code>$this-&gt;zdb-&gt;db</code>
+      <code>$this-&gt;view</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="3">
+      <code>_T("Plugins")</code>
+      <code>_T("Plugin %name has been enabled")</code>
+      <code>_T("Plugin %name has been disabled")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Core/Authentication.php">
+    <UndefinedFunction occurrences="1">
+      <code>_T("Logged in as:&lt;br/&gt;%login")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Core/CheckModules.php">
+    <UndefinedFunction occurrences="4">
+      <code>_T("'%s' module")</code>
+      <code>_T("either 'mysql' or 'pgsql' PDO driver")</code>
+      <code>_T('Ko')</code>
+      <code>_T('Ok')</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Core/Db.php">
+    <InvalidParamDefault occurrences="1">
+      <code>char</code>
+    </InvalidParamDefault>
+    <UndefinedClass occurrences="1">
+      <code>$results</code>
+    </UndefinedClass>
+    <UndefinedDocblockClass occurrences="12">
+      <code>$select</code>
+      <code>$results</code>
+      <code>char</code>
+      <code>Select</code>
+      <code>Insert</code>
+      <code>Update</code>
+      <code>Delete</code>
+      <code>SqlInterface</code>
+      <code>Stmt</code>
+      <code>sting</code>
+      <code>intger</code>
+      <code>Exception</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="galette/lib/Galette/Core/GaletteMail.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>current</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="galette/lib/Galette/Core/History.php">
+    <UndefinedDocblockClass occurrences="3">
+      <code>Select</code>
+      <code>Select</code>
+      <code>Select</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="1">
+      <code>__("Y-m-d H:i:s")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Core/I18n.php">
+    <UndefinedFunction occurrences="1">
+      <code>_T('Unknown lang (%lang)')</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Core/Install.php">
+    <MissingFile occurrences="2">
+      <code>include_once '../includes/fields_defs/members_fields.php'</code>
+      <code>include_once '../includes/fields_defs/members_fields_cats.php'</code>
+    </MissingFile>
+    <UndefinedConstant occurrences="1">
+      <code>GALETTE_THEME_DIR</code>
+    </UndefinedConstant>
+    <UndefinedDocblockClass occurrences="4">
+      <code>html</code>
+      <code>char</code>
+      <code>char</code>
+      <code>Galette\Core\Db</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="19">
+      <code>_T("Checks")</code>
+      <code>_T("Installation mode")</code>
+      <code>_T("Database")</code>
+      <code>_T("Database access and permissions")</code>
+      <code>_T("Previous version selection")</code>
+      <code>_T("Datapase upgrade")</code>
+      <code>_T("Tables Creation")</code>
+      <code>_T("Admin parameters")</code>
+      <code>_T("Galette initialization")</code>
+      <code>_T("End!")</code>
+      <code>_T("Ok")</code>
+      <code>_T("Ko")</code>
+      <code>_T("Database type unknown")</code>
+      <code>_T("Write configuration file")</code>
+      <code>_T("Config file already exists and is up to date")</code>
+      <code>_T("Unable to create configuration file (%path)")</code>
+      <code>_T("Update preferences")</code>
+      <code>_T("Update models")</code>
+      <code>_T("Mails texts")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Core/Login.php">
+    <UndefinedClass occurrences="2">
+      <code>AdapterException</code>
+      <code>AdapterException</code>
+    </UndefinedClass>
+    <UndefinedDocblockClass occurrences="7">
+      <code>$results</code>
+      <code>$results</code>
+      <code>$select</code>
+      <code>$results</code>
+      <code>$results</code>
+      <code>$select</code>
+      <code>$results</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="galette/lib/Galette/Core/Mailing.php">
+    <InvalidGlobal occurrences="1">
+      <code>global $zdb;</code>
+    </InvalidGlobal>
+    <UndefinedDocblockClass occurrences="1">
+      <code>ResultSet</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="galette/lib/Galette/Core/MailingHistory.php">
+    <UndefinedDocblockClass occurrences="5">
+      <code>HistoryList</code>
+      <code>Select</code>
+      <code>Select</code>
+      <code>Select</code>
+      <code>GaletteMailing</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="1">
+      <code>_T("Delete mailing entries")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Core/Pagination.php">
+    <UndefinedDocblockClass occurrences="3">
+      <code>Select</code>
+      <code>Router</code>
+      <code>Smarty</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="galette/lib/Galette/Core/Picture.php">
+    <InvalidParamDefault occurrences="1">
+      <code>int</code>
+    </InvalidParamDefault>
+    <UndefinedClass occurrences="1">
+      <code>$results</code>
+    </UndefinedClass>
+    <UndefinedDocblockClass occurrences="2">
+      <code>$insert</code>
+      <code>$select</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="1">
+      <code>_T("An SQL error has occurred.")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Core/Plugins.php">
+    <UndefinedDocblockClass occurrences="9">
+      <code>void|exception</code>
+      <code>void|exception</code>
+      <code>module's information</code>
+      <code>Smarty</code>
+      <code>Smarty</code>
+      <code>Smarty</code>
+      <code>Smarty</code>
+      <code>Concatenated</code>
+      <code>Concatenated</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="10">
+      <code>__("Y-m-d")</code>
+      <code>_T("No such module.")</code>
+      <code>_T("Cannot deactivate plugin.")</code>
+      <code>_T("Cannot deactivate plugin.")</code>
+      <code>_T("No such module.")</code>
+      <code>_T("Cannot activate plugin.")</code>
+      <code>_T("Cannot activate plugin.")</code>
+      <code>_T("Module does not exists!")</code>
+      <code>_T("File not found!")</code>
+      <code>_T("Module does not exists!")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Core/Preferences.php">
+    <UndefinedDocblockClass occurrences="3">
+      <code>staing</code>
+      <code>boolean|Exception</code>
+      <code>$insert</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="23">
+      <code>_T("- The username must be composed of at least 4 characters!")</code>
+      <code>_T("- This username is already used by another member !")</code>
+      <code>_T("- The numbers and measures have to be integers!")</code>
+      <code>_T("- The numbers and measures have to be integers!")</code>
+      <code>_T("- Invalid number of months of membership extension.")</code>
+      <code>_T("- Invalid format of beginning of membership.")</code>
+      <code>_T("- Invalid date for beginning of membership.")</code>
+      <code>_T("- Invalid number of offered months.")</code>
+      <code>_T("- Invalid year for cards.")</code>
+      <code>_T("- You must indicate a sender name for emails!")</code>
+      <code>_T("- You must indicate an email address Galette should use to send emails!")</code>
+      <code>_T("- You must indicate the SMTP server you want to use!")</code>
+      <code>_T("- You must provide a login for SMTP authentication.")</code>
+      <code>_T("- You must provide a password for SMTP authentication.")</code>
+      <code>_T("- Default membership extention and beginning of membership are mutually exclusive.")</code>
+      <code>_T("- Offering months is only compatible with beginning of membership.")</code>
+      <code>_T("- Mandatory field %field empty.")</code>
+      <code>_T("Passwords mismatch")</code>
+      <code>_T("You have to select a staff member")</code>
+      <code>_T("%name association's %status")</code>
+      <code>_T("Invalid E-Mail address: %s")</code>
+      <code>_T('Current cards configuration may exceed page width!')</code>
+      <code>_T('Current cards configuration may exceed page height!')</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/DynamicFields/DynamicField.php">
+    <UndefinedDocblockClass occurrences="5">
+      <code>$select</code>
+      <code>$results</code>
+      <code>ResultSet</code>
+      <code>$select</code>
+      <code>$results</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="21">
+      <code>_T("User, read/write")</code>
+      <code>_T("Staff member")</code>
+      <code>_T("Administrator")</code>
+      <code>_T("Group manager")</code>
+      <code>_T("User, read only")</code>
+      <code>_T("Members")</code>
+      <code>_T("Contributions")</code>
+      <code>_T("Transactions")</code>
+      <code>_T('Missing required field name!')</code>
+      <code>_T('Missing required field permissions!')</code>
+      <code>_T('Unknown permission!')</code>
+      <code>_T('Missing required form!')</code>
+      <code>_T('Unknown form!')</code>
+      <code>_T("- Field name already used.")</code>
+      <code>_T("separator")</code>
+      <code>_T("free text")</code>
+      <code>_T("single line")</code>
+      <code>_T("choice")</code>
+      <code>_T("date")</code>
+      <code>_T("boolean")</code>
+      <code>_T("file")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Entity/Adherent.php">
+    <UndefinedDocblockClass occurrences="11">
+      <code>ResultSet</code>
+      <code>pref_statut</code>
+      <code>$select</code>
+      <code>$results</code>
+      <code>$update</code>
+      <code>$insert</code>
+      <code>$add</code>
+      <code>$update</code>
+      <code>$update</code>
+      <code>$edit</code>
+      <code>Login</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="44">
+      <code>_T("Freed of dues")</code>
+      <code>__("Y-m-d")</code>
+      <code>_T("Never contributed: Registered %days days ago (since %date)")</code>
+      <code>_T("Never contributed")</code>
+      <code>_T("Last day!")</code>
+      <code>__("Y-m-d")</code>
+      <code>_T("Late of %days days (since %date)")</code>
+      <code>_T("Late")</code>
+      <code>__("Y-m-d")</code>
+      <code>_T("%days days remaining (ending on %date)")</code>
+      <code>_T("- Mandatory field %field empty.")</code>
+      <code>__("Y-m-d")</code>
+      <code>_T('- Birthdate must be set in the past!')</code>
+      <code>_T('- Members must be less than 200 years old (currently %years)!')</code>
+      <code>__("Y-m-d")</code>
+      <code>__("Y-m-d")</code>
+      <code>_T("- Wrong date format (%date_format) for %field!")</code>
+      <code>_T("- Non-valid E-Mail address!")</code>
+      <code>_T("- This E-Mail address is already used by another member!")</code>
+      <code>_T("An error has occurred while looking if login already exists.")</code>
+      <code>_T("- Non-valid Website address! Maybe you've skipped the http://?")</code>
+      <code>_T("- The username must be composed of at least %i characters!")</code>
+      <code>_T("- The username cannot contain the @ character")</code>
+      <code>_T("- This username is already in use, please choose another one!")</code>
+      <code>_T("An error has occurred while looking if login already exists.")</code>
+      <code>_T("- The passwords don't match!")</code>
+      <code>_T("Password misrepeated: ")</code>
+      <code>_T("Status #%id does not exists in database.")</code>
+      <code>_T("An error has occurred while looking if status does exists.")</code>
+      <code>_T("Gender %gender does not exists!")</code>
+      <code>_T("Self_subscription as a member: ")</code>
+      <code>_T("Member card added")</code>
+      <code>_T("Fail to add new member.")</code>
+      <code>_T("Member card updated")</code>
+      <code>_T("Yes")</code>
+      <code>_T("No")</code>
+      <code>_T("Active")</code>
+      <code>_T("Inactive")</code>
+      <code>_T('Man')</code>
+      <code>_T('Woman')</code>
+      <code>__('Unspecified')</code>
+      <code>__("Y-m-d")</code>
+      <code>_T(' (%age years old)')</code>
+      <code>_T('Duplicated from %name (%id)')</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Entity/Contribution.php">
+    <UndefinedDocblockClass occurrences="12">
+      <code>null|int|ResultSet</code>
+      <code>ResultSet</code>
+      <code>$insert</code>
+      <code>$add</code>
+      <code>$update</code>
+      <code>$edit</code>
+      <code>$update</code>
+      <code>date</code>
+      <code>$select</code>
+      <code>$results</code>
+      <code>$update</code>
+      <code>$update</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="24">
+      <code>__("Y-m-d")</code>
+      <code>__("Y-m-d")</code>
+      <code>__("Y-m-d")</code>
+      <code>_T("- Wrong date format (%date_format) for %field!")</code>
+      <code>_T("- The amount must be an integer!")</code>
+      <code>_T("- Unknown payment type")</code>
+      <code>_T("- The duration must be a positive integer!")</code>
+      <code>_T("- Mandatory field %field empty.")</code>
+      <code>_T("- Sum of all contributions exceed corresponding transaction amount.")</code>
+      <code>_T("An error occurred checking overlaping fees :(")</code>
+      <code>_T("- Membership period overlaps period starting at ")</code>
+      <code>__("Y-m-d")</code>
+      <code>_T("Contribution added")</code>
+      <code>_T("Fail to add new contribution.")</code>
+      <code>_T("Contribution updated")</code>
+      <code>_T("Contribution information")</code>
+      <code>_T("Script output")</code>
+      <code>_T("Membership")</code>
+      <code>_T("Donation")</code>
+      <code>__("Y-m-d")</code>
+      <code>__("Y-m-d")</code>
+      <code>__("Y-m-d")</code>
+      <code>__("Y-m-d")</code>
+      <code>_T("- Wrong date format (%date_format) for %field!")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Entity/ContributionsTypes.php">
+    <UndefinedDocblockClass occurrences="2">
+      <code>ResultSet</code>
+      <code>Boolean</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="1">
+      <code>_T("contribution type")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Entity/DynamicFieldsHandle.php">
+    <UndefinedClass occurrences="2">
+      <code>$results</code>
+      <code>$results</code>
+    </UndefinedClass>
+    <UndefinedDocblockClass occurrences="3">
+      <code>$results</code>
+      <code>$results</code>
+      <code>ResulSet</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="galette/lib/Galette/Entity/DynamicsTrait.php">
+    <InvalidGlobal occurrences="1">
+      <code>global $login;</code>
+    </InvalidGlobal>
+    <UndefinedFunction occurrences="6">
+      <code>_T('Missing required field %field')</code>
+      <code>__("Y-m-d")</code>
+      <code>__("Y-m-d")</code>
+      <code>__("Y-m-d")</code>
+      <code>_T("- Wrong date format (%date_format) for %field!")</code>
+      <code>_T("File is too big. Maximum allowed size is %dKo")</code>
+    </UndefinedFunction>
+    <UndefinedVariable occurrences="2">
+      <code>$disabled</code>
+      <code>$disabled</code>
+    </UndefinedVariable>
+  </file>
+  <file src="galette/lib/Galette/Entity/Entitled.php">
+    <UndefinedDocblockClass occurrences="4">
+      <code>ResultSet</code>
+      <code>boolean|Exception</code>
+      <code>ID_NOT_EXITS|boolean</code>
+      <code>ID_NOT_EXITS|boolean</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="7">
+      <code>_T($r-&gt;$flabel)</code>
+      <code>_T($r-&gt;$flabel)</code>
+      <code>_T("ID must be an integer!")</code>
+      <code>_T("Label does not exist")</code>
+      <code>_T($res-&gt;$field)</code>
+      <code>_T("Cannot delete this label: it's still used")</code>
+      <code>_T($this-&gt;label)</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Entity/FieldsCategories.php">
+    <UndefinedClass occurrences="1">
+      <code>$results</code>
+    </UndefinedClass>
+    <UndefinedDocblockClass occurrences="4">
+      <code>$select</code>
+      <code>$update</code>
+      <code>boolean|Exception</code>
+      <code>$insert</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="galette/lib/Galette/Entity/FieldsConfig.php">
+    <UndefinedClass occurrences="1">
+      <code>$results</code>
+    </UndefinedClass>
+    <UndefinedDocblockClass occurrences="5">
+      <code>$select</code>
+      <code>$results</code>
+      <code>$insert</code>
+      <code>boolean|Exception</code>
+      <code>$delete</code>
+    </UndefinedDocblockClass>
+    <UndefinedVariable occurrences="1">
+      <code>$f</code>
+    </UndefinedVariable>
+  </file>
+  <file src="galette/lib/Galette/Entity/Group.php">
+    <UndefinedDocblockClass occurrences="2">
+      <code>null|int|ResultSet</code>
+      <code>ResultSet</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="7">
+      <code>_T("Group has been detached from its parent")</code>
+      <code>_T("Unable to detach group :(")</code>
+      <code>_T("Group added")</code>
+      <code>_T("Fail to add new group.")</code>
+      <code>_T("Group updated")</code>
+      <code>__("Y-m-d")</code>
+      <code>_T('Group `%1$s` cannot be set as parent!')</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Entity/I18nTrait.php">
+    <UndefinedFunction occurrences="1">
+      <code>_T('Unable to add dynamic translation for %field :(')</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Entity/ImportModel.php">
+    <UndefinedDocblockClass occurrences="3">
+      <code>ResultSet</code>
+      <code>Db</code>
+      <code>Db</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="1">
+      <code>__("Y-m-d")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Entity/ListsConfig.php">
+    <UndefinedDocblockClass occurrences="2">
+      <code>stdClass</code>
+      <code>stdClass</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="galette/lib/Galette/Entity/PaymentType.php">
+    <UndefinedDocblockClass occurrences="3">
+      <code>ResultSet</code>
+      <code>$select</code>
+      <code>$results</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="7">
+      <code>_T("You cannot delete system payment types!")</code>
+      <code>_T("Other")</code>
+      <code>_T("Cash")</code>
+      <code>_T("Credit card")</code>
+      <code>_T("Check")</code>
+      <code>_T("Transfer")</code>
+      <code>_T("Paypal")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Entity/PdfAdhesionFormModel.php">
+    <UndefinedDocblockClass occurrences="2">
+      <code>Db</code>
+      <code>Preferences</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="galette/lib/Galette/Entity/PdfInvoice.php">
+    <UndefinedDocblockClass occurrences="2">
+      <code>Db</code>
+      <code>Preferences</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="galette/lib/Galette/Entity/PdfMain.php">
+    <UndefinedDocblockClass occurrences="2">
+      <code>Db</code>
+      <code>Preferences</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="galette/lib/Galette/Entity/PdfModel.php">
+    <UndefinedDocblockClass occurrences="5">
+      <code>Preferences</code>
+      <code>Preferences</code>
+      <code>ResultSet</code>
+      <code>Preferences</code>
+      <code>Class</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="9">
+      <code>_T("%field should be less than %chars characters long.")</code>
+      <code>_T("%field should not be empty!")</code>
+      <code>_T($matches[1])</code>
+      <code>_T("Unknown type %type!")</code>
+      <code>_T("Name")</code>
+      <code>_T("Title")</code>
+      <code>_T("Subtitle")</code>
+      <code>_T("header and footer should not be empty!")</code>
+      <code>_T("body should not be empty!")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Entity/PdfReceipt.php">
+    <UndefinedDocblockClass occurrences="2">
+      <code>Db</code>
+      <code>Preferences</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="galette/lib/Galette/Entity/Reminder.php">
+    <UndefinedDocblockClass occurrences="3">
+      <code>ResultSet</code>
+      <code>$insert</code>
+      <code>$add</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="7">
+      <code>_T("%name &lt;%mail&gt; (%days days)")</code>
+      <code>_T("Sent reminder email for late membership")</code>
+      <code>_T("Sent reminder email for impending membership")</code>
+      <code>_T("A problem happened while sending late membership email")</code>
+      <code>_T("A problem happened while sending impending membership email")</code>
+      <code>_T("Unable to send %membership reminder (no email address).")</code>
+      <code>_T("%name (#%id - %days days)")</code>
+    </UndefinedFunction>
+    <UndefinedVariable occurrences="1">
+      <code>$str</code>
+    </UndefinedVariable>
+  </file>
+  <file src="galette/lib/Galette/Entity/SavedSearch.php">
+    <UndefinedDocblockClass occurrences="5">
+      <code>ResultSet</code>
+      <code>$select</code>
+      <code>$select</code>
+      <code>$select</code>
+      <code>$results</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="4">
+      <code>_T('Form is mandatory!')</code>
+      <code>__("Y-m-d")</code>
+      <code>_T("Unknown form %form!")</code>
+      <code>_T("Name cannot be empty!")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Entity/Status.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>ResultSet</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="2">
+      <code>_T("status")</code>
+      <code>_T("You cannot delete default status!")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Entity/Texts.php">
+    <UndefinedDocblockClass occurrences="2">
+      <code>boolean|Exception</code>
+      <code>Db</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="galette/lib/Galette/Entity/Title.php">
+    <UndefinedDocblockClass occurrences="3">
+      <code>ResultSet</code>
+      <code>Db</code>
+      <code>Db</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="1">
+      <code>_T($this-&gt;$rname)</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Entity/Transaction.php">
+    <UndefinedDocblockClass occurrences="7">
+      <code>null|int|ResultSet</code>
+      <code>$delete</code>
+      <code>ResultSet</code>
+      <code>$insert</code>
+      <code>$add</code>
+      <code>$update</code>
+      <code>$edit</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="13">
+      <code>__("Y-m-d")</code>
+      <code>__("Y-m-d")</code>
+      <code>__("Y-m-d")</code>
+      <code>_T("- Wrong date format (%date_format) for %field!")</code>
+      <code>_T("- The amount must be an integer!")</code>
+      <code>_T("- Empty transaction description!")</code>
+      <code>_T("- Transaction description must be 150 characters long maximum.")</code>
+      <code>_T("- Mandatory field %field empty.")</code>
+      <code>_T("- Sum of all contributions exceed corresponding transaction amount.")</code>
+      <code>_T("Transaction added")</code>
+      <code>_T("Fail to add new transaction.")</code>
+      <code>_T("Transaction updated")</code>
+      <code>__("Y-m-d")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Entity/TranslatableTrait.php">
+    <UndefinedFunction occurrences="1">
+      <code>_T($this-&gt;name)</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Filters/AdvancedMembersList.php">
+    <ParadoxicalCondition occurrences="1"/>
+    <UndefinedFunction occurrences="3">
+      <code>__("Y-m-d")</code>
+      <code>__("Y-m-d")</code>
+      <code>__("Y-m-d")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Filters/ContributionsList.php">
+    <UndefinedFunction occurrences="11">
+      <code>__("Y-m-d")</code>
+      <code>__("Y")</code>
+      <code>__("Y-m")</code>
+      <code>__("Y-m-d")</code>
+      <code>__("Y")</code>
+      <code>__("Y-m")</code>
+      <code>__("Y-m-d")</code>
+      <code>_T("start date filter")</code>
+      <code>_T("end date filter")</code>
+      <code>_T("Unknown date format for %field.&lt;br/&gt;Know formats are: %formats")</code>
+      <code>__("Y-m-d")</code>
+    </UndefinedFunction>
+    <UndefinedVariable occurrences="1">
+      <code>$key</code>
+    </UndefinedVariable>
+  </file>
+  <file src="galette/lib/Galette/Filters/HistoryList.php">
+    <UndefinedFunction occurrences="11">
+      <code>__("Y-m-d")</code>
+      <code>__("Y")</code>
+      <code>__("Y-m")</code>
+      <code>__("Y-m-d")</code>
+      <code>__("Y")</code>
+      <code>__("Y-m")</code>
+      <code>__("Y-m-d")</code>
+      <code>_T("start date filter")</code>
+      <code>_T("end date filter")</code>
+      <code>_T("Unknown date format for %field.&lt;br/&gt;Know formats are: %formats")</code>
+      <code>__("Y-m-d")</code>
+    </UndefinedFunction>
+    <UndefinedVariable occurrences="1">
+      <code>$key</code>
+    </UndefinedVariable>
+  </file>
+  <file src="galette/lib/Galette/Filters/MailingsList.php">
+    <UndefinedFunction occurrences="11">
+      <code>__("Y-m-d")</code>
+      <code>__("Y")</code>
+      <code>__("Y-m")</code>
+      <code>__("Y-m-d")</code>
+      <code>__("Y")</code>
+      <code>__("Y-m")</code>
+      <code>__("Y-m-d")</code>
+      <code>_T("start date filter")</code>
+      <code>_T("end date filter")</code>
+      <code>_T("Unknown date format for %field.&lt;br/&gt;Know formats are: %formats")</code>
+      <code>__("Y-m-d")</code>
+    </UndefinedFunction>
+    <UndefinedVariable occurrences="1">
+      <code>$key</code>
+    </UndefinedVariable>
+  </file>
+  <file src="galette/lib/Galette/Filters/MembersList.php">
+    <UndefinedDocblockClass occurrences="2">
+      <code>Preferences</code>
+      <code>Smarty</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="galette/lib/Galette/Filters/TransactionsList.php">
+    <UndefinedFunction occurrences="11">
+      <code>__("Y-m-d")</code>
+      <code>__("Y")</code>
+      <code>__("Y-m")</code>
+      <code>__("Y-m-d")</code>
+      <code>__("Y")</code>
+      <code>__("Y-m")</code>
+      <code>__("Y-m-d")</code>
+      <code>_T("start date filter")</code>
+      <code>_T("end date filter")</code>
+      <code>_T("Unknown date format for %field.&lt;br/&gt;Know formats are: %formats")</code>
+      <code>__("Y-m-d")</code>
+    </UndefinedFunction>
+    <UndefinedVariable occurrences="1">
+      <code>$key</code>
+    </UndefinedVariable>
+  </file>
+  <file src="galette/lib/Galette/Handlers/Error.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>UnexpectedValueException</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="1">
+      <code>__('Galette error')</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Handlers/NotFound.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>UnexpectedValueException</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="1">
+      <code>__('Page not found')</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Handlers/PhpError.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>UnexpectedValueException</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="1">
+      <code>__('Galette error')</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/IO/Charts.php">
+    <UndefinedFunction occurrences="10">
+      <code>_T("Staff members")</code>
+      <code>_T($r-&gt;status)</code>
+      <code>_T("Due free")</code>
+      <code>_T("Never contribute")</code>
+      <code>_T("Impending due dates")</code>
+      <code>_T("Up to date")</code>
+      <code>_T("Late")</code>
+      <code>_T("Individuals")</code>
+      <code>_T("Companies")</code>
+      <code>_T($r-&gt;label)</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/IO/Csv.php">
+    <UndefinedFunction occurrences="1">
+      <code>__("Y-m-d H:i:s")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/IO/CsvIn.php">
+    <InvalidGlobal occurrences="1">
+      <code>global $i18n;</code>
+    </InvalidGlobal>
+    <UndefinedFunction occurrences="13">
+      <code>_T('File %filename cannot be open!')</code>
+      <code>_T("Fields count mismatch... There should be %should_count fields and there are %count (row %row)")</code>
+      <code>_T("Field %field is required, but missing in row %row")</code>
+      <code>_T("Status %status does not exists!")</code>
+      <code>_T("Title %title does not exists!")</code>
+      <code>_T("from another member in import")</code>
+      <code>_T("from member %id_adh")</code>
+      <code>_T("Email address %address is already used! (%extra)")</code>
+      <code>_T("Lang %lang does not exists!")</code>
+      <code>_T("File is empty!")</code>
+      <code>_T("An error occurred storing member at row %row (%name):")</code>
+      <code>_T("An error occurred storing member at row %row (%name):")</code>
+      <code>_T("An error occurred while importing members")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/IO/CsvOut.php">
+    <InvalidParamDefault occurrences="1">
+      <code>object</code>
+    </InvalidParamDefault>
+    <UndefinedDocblockClass occurrences="1">
+      <code>char</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="galette/lib/Galette/IO/FileTrait.php">
+    <InvalidPassByReference occurrences="1">
+      <code>explode('.', $file)</code>
+    </InvalidPassByReference>
+    <UndefinedFunction occurrences="16">
+      <code>_T("An error occurred.")</code>
+      <code>_T("File name is invalid, it should not contain any special character or space.")</code>
+      <code>_T("File extension is not allowed, only %s files are.")</code>
+      <code>_T("File is too big. Maximum allowed size is %dKo")</code>
+      <code>_T("Mime-Type not allowed")</code>
+      <code>_T("A file with that name already exists!")</code>
+      <code>_T("File does not comply with requirements.")</code>
+      <code>_T("Unable to write file or temporary file")</code>
+      <code>_T("The uploaded file exceeds the upload_max_filesize directive in php.ini")</code>
+      <code>_T("The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form")</code>
+      <code>_T("The uploaded file was only partially uploaded")</code>
+      <code>_T("No file was uploaded")</code>
+      <code>_T("Missing a temporary folder")</code>
+      <code>_T("Failed to write file to disk")</code>
+      <code>_T("File upload stopped by extension")</code>
+      <code>_T("Unknown upload error")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/IO/MembersCsv.php">
+    <UndefinedFunction occurrences="16">
+      <code>__('filtered_memberslist')</code>
+      <code>__("Y-m-d")</code>
+      <code>__("Y-m-d")</code>
+      <code>__("Y-m-d")</code>
+      <code>__("Y-m-d")</code>
+      <code>_T("Man")</code>
+      <code>_T("Woman")</code>
+      <code>_T("Unspecified")</code>
+      <code>_T("Yes")</code>
+      <code>_T("No")</code>
+      <code>_T("Yes")</code>
+      <code>_T("No")</code>
+      <code>_T("Yes")</code>
+      <code>_T("No")</code>
+      <code>_T("Yes")</code>
+      <code>_T("No")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/IO/Pdf.php">
+    <UndefinedConstant occurrences="1">
+      <code>PDF_CREATOR</code>
+    </UndefinedConstant>
+    <UndefinedDocblockClass occurrences="1">
+      <code>$this-&gt;Image($logofile, $x, $this-&gt;GetY(), $wlogo, $hlogo)</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="4">
+      <code>_T("Association %s")</code>
+      <code>_T("Missing or incorrect image file ")</code>
+      <code>_T("Not a GIF file ")</code>
+      <code>_T("Association %s")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/IO/PdfAdhesionForm.php">
+    <UndefinedFunction occurrences="7">
+      <code>__("adherent_form")</code>
+      <code>__("adherent_form")</code>
+      <code>_T("Man")</code>
+      <code>_T("Woman")</code>
+      <code>_T("Unspecified")</code>
+      <code>_T("None")</code>
+      <code>_T("None")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/IO/PdfAttendanceSheet.php">
+    <UndefinedClass occurrences="1">
+      <code>new $class($zdb, $prefs, PdfModel::MAIN_MODEL)</code>
+    </UndefinedClass>
+    <UndefinedDocblockClass occurrences="1">
+      <code>$this-&gt;Image($p, $ximg, $y, $wlogo, $hlogo)</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="9">
+      <code>__("Y-m-d")</code>
+      <code>__('attendance_sheet')</code>
+      <code>__("Y-m-d")</code>
+      <code>_T("Generated by Galette")</code>
+      <code>_T("Attendance sheet")</code>
+      <code>_T("%A, %B %#d%O %Y")</code>
+      <code>__("Y-m-d")</code>
+      <code>_T("Name")</code>
+      <code>_T("Signature")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/IO/PdfContribution.php">
+    <UndefinedDocblockClass occurrences="2">
+      <code>Db</code>
+      <code>Preferences</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="galette/lib/Galette/IO/PdfGroups.php">
+    <UndefinedFunction occurrences="9">
+      <code>__('groups_list')</code>
+      <code>_T("Members by groups")</code>
+      <code>_T("Members by groups")</code>
+      <code>_T("Generated by Galette")</code>
+      <code>_T("Managers:")</code>
+      <code>_T("Name")</code>
+      <code>_T("Email")</code>
+      <code>_T("Phone")</code>
+      <code>_T("GSM")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/IO/PdfMembersCards.php">
+    <UndefinedDocblockClass occurrences="2">
+      <code>$this-&gt;Image($photofile, $x0, $y0, 25)</code>
+      <code>$this-&gt;Image($this-&gt;logofile, $xl, $y0, round($this-&gt;wlogo))</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="4">
+      <code>__('cards')</code>
+      <code>_T("Member's Cards")</code>
+      <code>_T("Generated by Galette")</code>
+      <code>_T("Cards")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/IO/PdfMembersLabels.php">
+    <UndefinedFunction occurrences="4">
+      <code>__('labels_print_filename')</code>
+      <code>_T("Member's Labels")</code>
+      <code>_T("Generated by Galette")</code>
+      <code>_T("Labels")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Middleware/Authenticate.php">
+    <UndefinedClass occurrences="1">
+      <code>$this-&gt;session-&gt;urlRedirect</code>
+    </UndefinedClass>
+    <UndefinedDocblockClass occurrences="17">
+      <code>Galette\Core\Login</code>
+      <code>RKA\Session</code>
+      <code>Slim\Container</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;session-&gt;urlRedirect</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login-&gt;login</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="3">
+      <code>_T("Login required")</code>
+      <code>_T("Unknown ACL rule '%acl'!")</code>
+      <code>_T("You do not have permission for requested URL.")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Middleware/CheckAcls.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>Slim\Container</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="3">
+      <code>_T("Route '%name' is not registered in ACLs!")</code>
+      <code>_T("Routes '%names' are not registered in ACLs!")</code>
+      <code>_T("Route '%name' is not registered in ACLs!")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Middleware/Language.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>Slim\Container</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="galette/lib/Galette/Middleware/MembersNavigate.php">
+    <UndefinedDocblockClass occurrences="6">
+      <code>Galette\Core\Login</code>
+      <code>Slim\Container</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$this-&gt;login</code>
+      <code>$ids</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="galette/lib/Galette/Middleware/Telemetry.php">
+    <UndefinedDocblockClass occurrences="1">
+      <code>Slim\Container</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="galette/lib/Galette/Middleware/UpdateAndMaintenance.php">
+    <UndefinedFunction occurrences="6">
+      <code>_T("Galette needs update!")</code>
+      <code>_T("Galette is currently under maintenance!")</code>
+      <code>_T("The Galette instance you are requesting is currently under maintenance. Please come back later.")</code>
+      <code>_T("Galette needs update!")</code>
+      <code>_T("Your Galette database is not present, or not up to date.")</code>
+      <code>_T("Please run install or upgrade procedure (check the documentation)")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Repository/Contributions.php">
+    <UndefinedDocblockClass occurrences="4">
+      <code>Contribution[]|ResultSet</code>
+      <code>Select</code>
+      <code>Select</code>
+      <code>Select</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="1">
+      <code>_T("Contributions deleted (%list)")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Repository/DynamicFieldsSet.php">
+    <UndefinedClass occurrences="1">
+      <code>$results</code>
+    </UndefinedClass>
+    <UndefinedDocblockClass occurrences="1">
+      <code>$select</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="galette/lib/Galette/Repository/Groups.php">
+    <UndefinedDocblockClass occurrences="2">
+      <code>$select</code>
+      <code>$results</code>
+    </UndefinedDocblockClass>
+    <UndefinedVariable occurrences="1">
+      <code>$id</code>
+    </UndefinedVariable>
+  </file>
+  <file src="galette/lib/Galette/Repository/Members.php">
+    <DuplicateArrayKey occurrences="2">
+      <code>'login_adh' =&gt; ''</code>
+      <code>'mdp_adh'   =&gt; ''</code>
+    </DuplicateArrayKey>
+    <InaccessibleProperty occurrences="1">
+      <code>$countSelect-&gt;joins</code>
+    </InaccessibleProperty>
+    <UndefinedClass occurrences="3">
+      <code>$rows</code>
+      <code>$list_members</code>
+    </UndefinedClass>
+    <UndefinedDocblockClass occurrences="6">
+      <code>Adherent[]|ResultSet</code>
+      <code>Adherent[]|ResultSet</code>
+      <code>Adherent[]|Laminas\Db\ResultSet</code>
+      <code>Adherent[]|ResultSet</code>
+      <code>$select</code>
+      <code>$select</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="4">
+      <code>_T("Member Picture deleted")</code>
+      <code>_T("Delete members cards, transactions and dues")</code>
+      <code>__("Y-m-d")</code>
+      <code>__("Y-m-d")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Repository/PaymentTypes.php">
+    <UndefinedClass occurrences="1">
+      <code>$list</code>
+    </UndefinedClass>
+    <UndefinedDocblockClass occurrences="2">
+      <code>$list</code>
+      <code>$insert</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="galette/lib/Galette/Repository/PdfModels.php">
+    <UndefinedClass occurrences="2">
+      <code>new $class($this-&gt;zdb, $this-&gt;preferences, $row)</code>
+      <code>$list</code>
+    </UndefinedClass>
+    <UndefinedDocblockClass occurrences="2">
+      <code>$list</code>
+      <code>$insert</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="galette/lib/Galette/Repository/Reminders.php">
+    <UndefinedDocblockClass occurrences="2">
+      <code>Db</code>
+      <code>Db</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="galette/lib/Galette/Repository/SavedSearches.php">
+    <UndefinedDocblockClass occurrences="2">
+      <code>SavedSearch[]|ResultSet</code>
+      <code>Select</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="1">
+      <code>_T("Searches deleted (%list)")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Repository/Titles.php">
+    <UndefinedDocblockClass occurrences="5">
+      <code>Db</code>
+      <code>Db</code>
+      <code>Db</code>
+      <code>boolean|Exception</code>
+      <code>translated</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="1">
+      <code>_T($res)</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Repository/Transactions.php">
+    <UndefinedDocblockClass occurrences="4">
+      <code>Transaction[]|ResultSet</code>
+      <code>Select</code>
+      <code>Select</code>
+      <code>interger|array</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="galette/lib/Galette/Updater/AbstractUpdater.php">
+    <UndefinedDocblockClass occurrences="3">
+      <code>Install</code>
+      <code>Boolean|Exception</code>
+      <code>Install</code>
+    </UndefinedDocblockClass>
+  </file>
+  <file src="galette/lib/Galette/Util/FakeData.php">
+    <DuplicateArrayKey occurrences="4">
+      <code>'ville_adh'         =&gt; $faker-&gt;city()</code>
+      <code>'adresse_adh'       =&gt; $faker-&gt;streetAddress()</code>
+      <code>'cp_adh'            =&gt; $faker-&gt;postcode()</code>
+      <code>'ville_adh'         =&gt; $faker-&gt;city()</code>
+    </DuplicateArrayKey>
+    <UndefinedFunction occurrences="18">
+      <code>_T("%count groups created")</code>
+      <code>_T("%count groups requested, and %done created")</code>
+      <code>_T("%count members created")</code>
+      <code>_T("%count members requested, and %done created")</code>
+      <code>_T("%count photos created")</code>
+      <code>_T("No photo has been created")</code>
+      <code>_T("Y-m-d")</code>
+      <code>_T("Y-m-d")</code>
+      <code>_T("Photo has not been stored!")</code>
+      <code>_T("Photo has not been copied!")</code>
+      <code>_T("Y-m-d")</code>
+      <code>_T("%count transactions created")</code>
+      <code>_T("%count transactions requested, and %done created")</code>
+      <code>_T("%count contributions created")</code>
+      <code>_T("No contribution created!")</code>
+      <code>_T("Y-m-d")</code>
+      <code>_T("Y-m-d")</code>
+      <code>_T("Y-m-d")</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Util/Password.php">
+    <TooFewArguments occurrences="1">
+      <code>preg_split('/[- _]/', $surname)</code>
+    </TooFewArguments>
+    <UndefinedDocblockClass occurrences="1">
+      <code>intager</code>
+    </UndefinedDocblockClass>
+    <UndefinedFunction occurrences="9">
+      <code>_T('Password is blacklisted!')</code>
+      <code>_T('Too short (%lenght characters minimum, %count found)')</code>
+      <code>_T('Do not use any of your personal information as password!')</code>
+      <code>_T('Does not contains lowercase letters')</code>
+      <code>_T('Does not contains uppercase letters')</code>
+      <code>_T('Does not contains letters')</code>
+      <code>_T('Does not contains numbers')</code>
+      <code>_T('Does not contains special characters')</code>
+      <code>__('Y-m-d')</code>
+    </UndefinedFunction>
+  </file>
+  <file src="galette/lib/Galette/Util/Telemetry.php">
+    <UndefinedDocblockClass occurrences="3">
+      <code>$select</code>
+      <code>$results</code>
+      <code>random</code>
+    </UndefinedDocblockClass>
+  </file>
+</files>
